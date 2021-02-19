@@ -13,5 +13,4 @@ Metres_Sq = (height/100)**2
 bmi = round(weight / Metres_Sq,2)
 
 #Prints BMI Output
-
 print("BMI is " + str(bmi) + ' kg/m²')
