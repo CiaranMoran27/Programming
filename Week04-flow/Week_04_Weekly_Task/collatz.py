@@ -21,7 +21,7 @@ while True:
 
 numberList = [numberInt]
 
-while numberInt!=1:               # exits loop when value equals 1
+while numberInt!=1:               # run while loop while value doesnt equal 1
     if numberInt % 2 == 0:             # check if number is even
         numberInt = numberInt // 2         # re-defines numberInt variable as itself divide by 2
     else:
