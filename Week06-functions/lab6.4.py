@@ -1,11 +1,13 @@
 students= []
+
 def readModules():
- return []
+    return []
+    
 def doAdd(students):
- currentStudent = {}
- currentStudent["name"]=input("enter name :")
- currentStudent["modules"]= readModules()
- students.append(currentStudent)
+    currentStudent = {}
+    currentStudent["name"]=input("enter name :")
+    currentStudent["modules"]= readModules()
+    students.append(currentStudent)
 #test
 doAdd(students)
 doAdd(students)
