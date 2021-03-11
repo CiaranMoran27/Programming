@@ -51,12 +51,13 @@ def customPlot(ax = None):
     # set plot area colour
     ax = plt.axes()
     ax.set_facecolor(plotAreaColour)
-    plt.show()
+
     return plt
 
 
 def writePlot(writePlot):
     plt.savefig('plottask.png')
+    plt.show()
     
 
 myPlot = customPlot()
